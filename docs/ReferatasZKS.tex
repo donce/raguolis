@@ -1,0 +1,170 @@
+﻿\documentclass[a4paper, 12pt]{article}
+%% placeholder komandai
+\usepackage{color}
+
+%% Lietuviški rašmenys, lietuviškų žodžių skirstymas į skiemenis, lietuviški kai kurio dokumento dalių pavadinimai.
+\usepackage{polyglossia}
+\setdefaultlanguage{lithuanian}
+
+%%paraštes
+\usepackage[margin = 2cm]{geometry}
+%% pavojingos eilutes
+\widowpenalty 1000
+\clubpenalty 1000
+
+\usepackage{setspace}
+\onehalfspacing
+
+
+%% Atitraukti pirmą pastraipą.
+\usepackage{indentfirst}
+
+%% komandos
+\newcommand{\OK}{Oleg Koldun}
+\newcommand{\UC}{Ugnė Laima Čižiutė}
+\newcommand{\RK}{Rytis Karpuška}
+\newcommand{\DK}{Donatas Kučinskas}
+\newcommand{\KJ}{Karolis Jocevičius}
+\newcommand{\placeholder}{\textbf{\textsf{\textcolor{red}{\fbox{PLACEHOLDER}}}}}
+
+
+%	instrukcija:
+%	"%" 	- komentaras uz jo galima rasyti viska
+%	"\" 	- sintaksinis elementas komandai atskirti
+%	"{parametras}" 	- parametras komandai
+%			pvz: \section{pavadinimas} - sukurs parafrafa su pavadinimu: "pavadinimas"
+%	"\newline" 	- perkelti teksta i nauja eilute
+%	<dvigubas Enter> 	- nauja pastraipa
+%	"\section{name} 	- parafrafas
+%	"\subsection{name}"	- poskyris
+%	"\newpage"	- naujas puslapis
+%	
+%	software:	instalinat xelatex, reikiamus paketus jis pats suinstalins bandant padaryti faila(~4GB)
+%	make instruction: 	xelatex ReferatasZKS.tex
+%
+
+\begin{document}
+
+
+
+	%%titulinis
+
+
+	\begin{titlepage}
+
+		\begin{center}
+	
+			\large {Vilniaus universitetas
+	
+					Matematikos ir Informatikos fakultetas}
+			
+			\vspace*{\fill}
+	
+		\textsc{\Huge placeholder } \\[0.5cm]
+		{\Large placeholder}
+	
+		\vspace{3cm}
+	
+			\begin{flushright}
+				\begin{minipage}{0.3\textwidth}
+				{\large Darbą atliko:} \\
+					\KJ \\
+					\UC \\
+					\OK \\
+					\DK \\
+					\RK
+				\end{minipage}
+			\end{flushright}
+	
+			\vspace{\fill}
+	
+			{\Large Vilnius, \the\year}
+	
+		\end{center}
+	\end{titlepage}
+	
+	%%anotacija
+
+\section{Anotacija}
+	
+		\textbf{Darbą atliko:}
+		
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\textbf{\KJ}
+		\begin{flushleft}
+		\hspace*{0.5cm}
+		Kontaktai: 
+		\hspace*{1.5cm} 
+			mail addres here 
+		\newline
+		\hspace*{1.5cm}
+		Indėlis: \placeholder
+		\end{flushleft}
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		
+		\textbf{\UC}
+		\begin{flushleft}
+		\hspace*{1.5cm}
+		Kontaktai: 
+			mail addres here 
+		\newline
+		\hspace*{1.5cm}
+		Indėlis: \placeholder
+		\end{flushleft}
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		
+		\textbf{\OK}
+		\begin{flushleft}
+		\hspace*{1.5cm}
+		Kontaktai: 
+			okoldun@gmail.com 
+		\newline
+		\hspace*{1.5cm}
+		Indėlis: \placeholder
+		\end{flushleft}
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+		\textbf{\DK}
+		\begin{flushleft}
+		\hspace*{1.5cm}
+		Kontaktai: 
+			mail addres here 
+		\newline
+		\hspace*{1.5cm}
+		Indėlis: \placeholder
+		\end{flushleft}
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		
+		\textbf{\RK}
+		\begin{flushleft}
+		\hspace*{1.5cm}
+		Kontaktai: 
+			mail addres here
+		\newline
+		\hspace*{1.5cm}
+		Indėlis: \placeholder
+		\end{flushleft}
+	\newpage{}	
+	
+\section{Turinis}
+	%%turinis
+	\tableofcontents
+	\newpage{}
+	%%skyriai		
+	
+\section{Ivadas}
+	
+		\placeholder
+	
+\section{pvz}
+		\subsection{pavadinimas}
+			\placeholder
+		\subsection{pavadinimas}
+			\placeholder
+		\subsection{pavadinimas}
+			\placeholder
+		\subsection{pavadinimas}
+			\placeholder
+
+			
+\end{document}
