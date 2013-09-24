@@ -45,12 +45,14 @@
 %---------------------------------------------------------
 % 		Paveikslėlio įkėlimo pavyzdys:
 %
-%		\begin{figure}[ht!]
+%		\begin{figure}[h]
 %		\centering
-%		\includegraphics{images/almera.JPG}
+%		\includegraphics[width=0.8\textwidth]{images/almera.JPG}
 %		\caption{Nissan Almera prietaisų skydelis}
 %		\label{overflow}
 %		\end{figure}
+%
+% Jei prireiktų atributų, žr.: http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics
 
 \begin{document}
 
@@ -279,11 +281,11 @@
 		bei būtų aiški mygtuko paskirtis.
 
 		%% Paveikslėlio įkėlimo pavyzdys
-		\begin{figure}[ht!]
+		\begin{figure}[h]
 		\centering
-		\includegraphics{images/almera.JPG}
+		\includegraphics[width=0.8\textwidth]{images/almera.jpg}
 		\caption{Nissan Almera prietaisų skydelis}
-		\label{overflow}
+		\label{almera}
 		\end{figure}
 		
 	\subsection{GMail kortelės}
@@ -308,6 +310,13 @@
 		\textbf{Pamąstymai -}
 		Vartotojui būtų patogiau, jei peržiūrėjus laišką esantį kortelėje būtų grįžtama į prieš tai lankytą kortelę.
 		Taip pat nereikėtų išvalyti neperskaitytų kortelės laiškų rodymo.
+
+		\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/korteles.png}
+		\caption{GMail kortelės}
+		\label{korteles}
+		\end{figure}
 
 	\subsection{Google pagrindinis puslapis}
 		\textbf{Tikslas -}
